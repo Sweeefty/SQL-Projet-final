@@ -1,0 +1,61 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
+model Cars {
+  idCar Unsupported("int auto_increment")? @id
+  Brand String
+  Model String
+  Year  Int
+  Type  String
+
+  @@ignore
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
+model Rentals {
+  idRental        Unsupported("int auto_increment")? @id
+  idCustomer      Int
+  idCar           Int
+  RentalStartDate DateTime
+  RentalEndDate   DateTime
+  TotalCost       Decimal
+
+  @@ignore
+}
+
+model User {
+  id    Int     @id @default(autoincrement())
+  email String  @unique
+  name  String?
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
+model customers {
+  idCustomer Unsupported("int auto_increment")? @id
+  firstName  String
+  lastName   String
+  address    String
+  country    String
+  city       String
+  email      String
+  phone      String
+
+  @@ignore
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
+model offices {
+  idOffice   Unsupported("int auto_increment") @id
+  officeType String
+  country    String
+  city       String
+
+  @@ignore
+}

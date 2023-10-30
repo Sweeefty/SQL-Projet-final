@@ -16,7 +16,6 @@ function Connexion() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Ajoutez ici la logique pour traiter les données du formulaire, par exemple, envoyer une demande de connexion au serveur.
   };
 
   return (
