@@ -17,6 +17,7 @@ function App() {
           <Route path="/nosproduits" component={NosProduits} />
         </Routes>
       </div>
+	  
     </Router>
   );
 }
