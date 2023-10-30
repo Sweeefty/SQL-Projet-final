@@ -7,7 +7,7 @@ function NosProduits() {
 		<div className="grid grid-cols-3 p-5 grid-rows-4 gap-10">
 		<div className="card w-96 bg-base-100 shadow-xl rounded-lg">
 				<figure>
-					<img src="./bmw.jpg" alt="Shoes" />
+					<img className='rounded-lg' src="./bmw.jpg" alt="Shoes" />
 				</figure>
 				<div className="card-body bg!">
 					<h2 className="card-title">bmw M4CS</h2>
@@ -19,7 +19,7 @@ function NosProduits() {
 			</div>
 			<div className="card w-96 bg-base-100 shadow-xl rounded-lg">
 				<figure>
-					<img src="./bmw.jpg" alt="Shoes" />
+					<img className='rounded-lg' src="./bmw.jpg" alt="Shoes" />
 				</figure>
 				<div className="card-body bg!">
 					<h2 className="card-title">bmw M4CS</h2>
@@ -31,7 +31,7 @@ function NosProduits() {
 			</div>
 			<div className="card w-96 bg-base-100 shadow-xl rounded-lg">
 				<figure>
-					<img src="./bmw.jpg" alt="Shoes" />
+					<img className='rounded-lg' src="./bmw.jpg" alt="Shoes" />
 				</figure>
 				<div className="card-body bg!">
 					<h2 className="card-title">bmw M4CS</h2>
@@ -43,7 +43,7 @@ function NosProduits() {
 			</div>
 			<div className="card w-96 bg-base-100 shadow-xl rounded-lg">
 				<figure>
-					<img src="./bmw.jpg" alt="Shoes" />
+					<img className='rounded-lg' src="./bmw.jpg" alt="Shoes" />
 				</figure>
 				<div className="card-body bg!">
 					<h2 className="card-title">bmw M4CS</h2>
@@ -55,7 +55,7 @@ function NosProduits() {
 			</div>
 			<div className="card w-96 bg-base-100 shadow-xl rounded-lg">
 				<figure>
-					<img src="./bmw.jpg" alt="Shoes" />
+					<img className='rounded-lg' src="./bmw.jpg" alt="Shoes" />
 				</figure>
 				<div className="card-body bg!">
 					<h2 className="card-title">bmw M4CS</h2>
@@ -67,7 +67,7 @@ function NosProduits() {
 			</div>
 			<div className="card w-96 bg-base-100 shadow-xl rounded-lg">
 				<figure>
-					<img src="./bmw.jpg" alt="Shoes" />
+					<img className='rounded-lg' src="./bmw.jpg" alt="Shoes" />
 				</figure>
 				<div className="card-body bg!">
 					<h2 className="card-title">bmw M4CS</h2>
@@ -79,7 +79,7 @@ function NosProduits() {
 			</div>
 			<div className="card w-96 bg-base-100 shadow-xl rounded-lg">
 				<figure>
-					<img src="./bmw.jpg" alt="Shoes" />
+					<img className='rounded-lg' src="./bmw.jpg" alt="Shoes" />
 				</figure>
 				<div className="card-body bg!">
 					<h2 className="card-title">bmw M4CS</h2>
@@ -91,7 +91,7 @@ function NosProduits() {
 			</div>
 			<div className="card w-96 bg-base-100 shadow-xl rounded-lg">
 				<figure>
-					<img src="./bmw.jpg" alt="Shoes" />
+					<img className='rounded-lg' src="./bmw.jpg" alt="Shoes" />
 				</figure>
 				<div className="card-body bg!">
 					<h2 className="card-title">bmw M4CS</h2>
@@ -103,7 +103,7 @@ function NosProduits() {
 			</div>
 			<div className="card w-96 bg-base-100 shadow-xl rounded-lg">
 				<figure>
-					<img src="./bmw.jpg" alt="Shoes" />
+					<img className='rounded-lg' src="./bmw.jpg" alt="Shoes" />
 				</figure>
 				<div className="card-body bg!">
 					<h2 className="card-title">bmw M4CS</h2>
