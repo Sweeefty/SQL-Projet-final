@@ -1,4 +1,5 @@
 import React from 'react';
+import './APropos.css';
 
 function APropos() {
   return (

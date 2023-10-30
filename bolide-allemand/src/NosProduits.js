@@ -1,4 +1,6 @@
 import React from 'react';
+import './NosProduits.css';
+
 
 function NosProduits() {
   return (
