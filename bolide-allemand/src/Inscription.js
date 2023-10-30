@@ -18,7 +18,6 @@ function Inscription() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Ajoutez ici la logique pour traiter les données du formulaire, par exemple, envoyer une demande d'inscription au serveur.
   };
 
   return (
