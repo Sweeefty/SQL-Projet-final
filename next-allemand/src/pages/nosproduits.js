@@ -23,8 +23,8 @@ function NosProduits() {
 							<img className='rounded-lg' src="./bmw.jpg" alt="Shoes" />
 						</figure>
 						<div className="card-body bg!">
-							<h2 className="card-title">{Cars.Brand}</h2>
-							<p>{voiture.desc}</p>
+							<h2 className="card-title">{voiture.Brand} {voiture.Model} {voiture.Year}</h2>
+							<p>{voiture.Type} </p>
 							<div className="items-center justify-center ">
 								<button className=" m-5 p-2 bg-[#B3B3B3] rounded-lg btn btn-primary"> Louer </button>
 							</div>

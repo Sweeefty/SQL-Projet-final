@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 function NosProduits() {
 	const [voitures, setVoitures] = useState([])
 
-	const fetchCars = async (url) => {
+    const handleAction = async (event) => {
 		const data = await fetch('/api/cars/new')
 		const json = await data.json()
 		setVoitures(json)
@@ -14,13 +14,13 @@ function NosProduits() {
 	return (
 		<Template>
 			<div className='w-[100%] h-[100%] full-page bg-gray-200 backdrop-blur-lg'>
-                <form>
+                <form action={handleAction}>
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text">Modele</span>
                         </label>
                         <label className="input-group">
-                            <input type="text" placeholder="RSQ7" className="input input-bordered" />
+                            <input type="text" placeholder="RSQ7" className="input input-bordered" name="modele" />
                         </label>
                     </div>
                     <div className="form-control">
@@ -44,7 +44,7 @@ function NosProduits() {
                             <span className="label-text">Type</span>
                         </label>
                         <label className="input-group">
-                            <input type="text" placeholder="Sportif" className="input input-bordered" />
+                            <input type="text" placeholder="Sportif" className="input input-bordered" name="type"/>
                         </label>
                     </div>
                 </form>
